@@ -214,7 +214,9 @@ function supportsLocalStorage() {
 function savetolocal(){
     if (!supportsLocalStorage()) {console.log("no loc storage"); }
     else{
-        localStorage["name"]=document.getElementById('addfirst').value;
-
+        localStorage["fname"]=document.getElementById('addfirst').value;
+        localStorage["lname"]=document.getElementById('addlast').value;
+        localStorage["email"]=document.getElementById('addemail').value;
+        localStorage["phone"]=document.getElementById('addphone').value;
     }
 }
