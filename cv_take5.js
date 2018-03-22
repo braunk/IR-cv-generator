@@ -31,6 +31,8 @@ Email: " +  localStorage['email'] + "</li><li id='phone'>Phone: " + localStorage
 <div class='clear'></div></div><div id='mainArea' class='quickFade delayFive'><section><article><div class='sectionTitle'>
 <h1>Personal Profile</h1></div><div class='sectionContent' id='personalprof'>" + localStorage['statement'] + "</div>
 </article><div class='clear'></div></section>");
-
+         
+         //to end
+         cv+=("</div></div></body>");
     return cv;
 }
