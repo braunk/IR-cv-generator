@@ -218,5 +218,6 @@ function savetolocal(){
         localStorage["lname"]=document.getElementById('addlast').value;
         localStorage["email"]=document.getElementById('addemail').value;
         localStorage["phone"]=document.getElementById('addphone').value;
+        localStorage["statement"]=document.getElementById('addprof').value;
     }
 }
